@@ -5,7 +5,7 @@ import http from 'http';
 const NODES = {
   EU: 'nfs-node-eu.novisurf.top',
   US: 'nfs-node-vir.novisurf.top',
-  SG: 'nfs-node-sg.novisurf.top' // New Singapore Node
+  SG: 'https://nfs-node-api-2.onrender.com' // New Singapore Node
 };
 
 // Optimization: Persistent SSL connections (Essential for sub-100ms performance)
